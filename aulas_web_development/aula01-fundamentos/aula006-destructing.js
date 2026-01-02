@@ -6,6 +6,7 @@ a -= 1
 a *= 5
 a /= 10
 a %= 2
+a **= 3
 
 //OPERADORES DESTRUCTURING (ES 2015)--------------------------
 //Tira elementos de uma estrutura
