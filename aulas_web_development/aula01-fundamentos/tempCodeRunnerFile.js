@@ -1,5 +1,8 @@
-
-const nota = 9
-const resultado = nota >= 7 ? 'aprovado' : 'reprovado'
-
-console.log(resultado)
+externo: for (a in num){
+    for(b in num){
+        if(a == 2 && b == 3){
+            break externo
+        }
+        console.log(a, b)
+    }
+}
