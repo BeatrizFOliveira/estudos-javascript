@@ -36,7 +36,7 @@ console.log(notasBaixas3)
 
 
 //Exemplo de CALLBACK para browser
-document.getElementsByTagName('body')[0].onclick = functio(evento){ //A função é chamada quando há um click no body
+document.getElementsByTagName('body')[0].onclick = function(evento){ //A função é chamada quando há um click no body
     console.log('O evente aconteceu.');
 }
 
